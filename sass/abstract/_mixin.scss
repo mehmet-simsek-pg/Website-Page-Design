@@ -1,10 +1,5 @@
 @mixin bgImg($height) {
-  background: linear-gradient(
-      to right,
-      rgba($primary-color, 0.9),
-      rgba($primary-color, 0.3)
-    ),
-    url("../../images/showcase.jpg");
+  background: url("../../images/showcase.jpg");
   width: 100%;
   height: $height;
   background-position: center center;
