@@ -1,5 +1,5 @@
 @mixin bgImg($height) {
-  background: url("../../images/showcase.jpg");
+  background-image: url("../../images/showcase.jpg");
   width: 100%;
   height: $height;
   background-position: center center;
