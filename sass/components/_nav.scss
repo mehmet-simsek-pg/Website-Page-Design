@@ -1,0 +1,47 @@
+.nav {
+  background-color: $primary-color;
+  height: 10vh;
+  .nav__left {
+    float: left;
+    font-size: 1rem;
+    .nav__name {
+      font-family: $font-family;
+      color: purple;
+      span {
+        color: $text-color;
+      }
+    }
+  }
+  .nav__right {
+    float: right;
+    padding-top: 0.5rem;
+    .nav__list {
+      text-align: right;
+      justify-content: space-between;
+      .nav__item {
+        display: inline;
+        list-style: none;
+        .nav__link {
+          text-decoration: none;
+          color: $text-color;
+          font-size: 0.7rem;
+          font-family: $font-family;
+          &-active {
+            color: purple;
+          }
+        }
+      }
+    }
+  }
+}
+
+.colorfulBand {
+  display: flex;
+  flex-direction: row;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    $colorfulBand 50%,
+    $colorfulBand 50%
+  );
+}

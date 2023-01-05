@@ -1,0 +1,29 @@
+.main {
+  height: 57vh;
+  display: flex;
+  .section-left,
+  .section-right {
+    display: inline-block;
+    padding: 1rem;
+    font-size: 0.8rem;
+    font-family: $font-family;
+    h5 {
+      font-size: 1rem;
+      padding: 0.5rem;
+    }
+    p {
+      text-align: left;
+    }
+    .p-bg {
+      background-color: $primary-color;
+      color: $text-color;
+    }
+  }
+
+  .section-right {
+    h5 {
+      background-color: $primary-color;
+      color: $text-color;
+    }
+  }
+}
