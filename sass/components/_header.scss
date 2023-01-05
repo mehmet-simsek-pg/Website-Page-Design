@@ -1,5 +1,5 @@
 .header-bgImg-container {
-  @include bgImg(40vh, "../../images/showcase.jpg");
+  @include bgImg(40vh);
   h1 {
     color: $text-color;
     text-align: center;
